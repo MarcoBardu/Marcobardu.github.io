@@ -1,32 +1,137 @@
-body {
-	width: 100%;
+html {
+	background-color: LightGoldenRodYellow;
 	margin: 0;
-	background-image: url("../images/indexbackground.jpeg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 1200px;
+	padding: 0;
 }
-
 
 header {
 	background-image: url("../images/indexheader.jpg");
 	background-size: cover;
 	text-align: center;
 	width: 100%;
+	height: 190px;
+	position: fixed;
+	z-index: 2;
 }
 
-h1 {color: white;
-	font-size: 50px;
+h1 {
+	color: saddlebrown;
+	font-size: 60px;
 	font-family: "Indie Flower", sans-sarif;
+	margin: 0;
+	font-weight: bold;
 }
 
 h2 {
-	font-size: 30px;
-	font-family: "itim", sans-sarif;
+	font-size: 35px;
+	font-family: "sue ellen francisco", sans-sarif;
+	margin: 0;
+	line-height: 1;
+	color: LightGoldenRodYellow;
 }
 
-h3 {
-	font-size: 20px;
-	padding: 0 60px;
+
+nav ul{
+	text-align: left;
+	padding: 10px;
+	margin-left: 15px;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 10px;
+	margin: 0 5px;
+	border: 1px solid peru;
+	border-radius: 5px;
+	background-color: LightGoldenRodYellow;
+	transition: background-color, color;
+}
+
+nav ul li:hover {
+	background-color: peru;
+}
+
+
+
+nav ul li a {
+		color: peru;
+		text-decoration: none;
+		transition: color;
+}
+
+nav ul li a:hover {
+		color: white;
+}
+
+
+main {
+	margin: 0 0 0 15px;
+	position: relative;
+	top: 240px;
+	z-index: 1;
+}
+
+h3.intro {
+	font-size: 30px;
 	font-family: "sue ellen francisco", sans-sarif;
+	color: black;
+	padding: 0;
+	line-height: 1;
+}
+
+h4.context {
+	font-family: itim, sans-sarif;
+	font-size: 25px;
+	line-height: 0;
+}
+
+p {
+	font-family: optima, sans-sarif;
+	font-size: 17px;
+	line-height: 2;
+}
+
+li {
+	font-family: optima, sans-sarif;
+	font-size: 17px;
+	line-height: 2;
+}
+
+#too {
+	text-decoration: line-through;
+}
+
+figure {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+figure.beach {
+	width: 50%;
+	}
+
+figure.beach figcaption {
+	text-align: center;
+}
+
+figure.code {
+  	width: 50%;
+}
+
+footer {
+	height: 100px;
+	background-color: lightsteelblue;
+	position: relative;
+	top: 250px;
+}
+
+footer p {
+	margin: 20px 20px;
+}
+
+footer i {
+	margin-left: 20px;
 }
