@@ -1,7 +1,5 @@
 html {
 	background-color: LightGoldenRodYellow;
-	margin: 0;
-	padding: 0;
 }
 
 header {
@@ -73,7 +71,7 @@ main {
 	z-index: 1;
 }
 
-h3.intro {
+.intro h3 {
 	font-size: 30px;
 	font-family: "sue ellen francisco", sans-sarif;
 	color: black;
@@ -81,7 +79,7 @@ h3.intro {
 	line-height: 1;
 }
 
-h4.context {
+h4{
 	font-family: itim, sans-sarif;
 	font-size: 25px;
 	line-height: 0;
@@ -103,22 +101,44 @@ li {
 	text-decoration: line-through;
 }
 
-figure {
-	display: block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
-
 figure.beach {
-	width: 50%;
+	width:50%;
+	margin-left: auto;
+  	margin-right: auto;
+	}
+
+figure.beach img {
+	width: 700px;
+	height: auto;
 	}
 
 figure.beach figcaption {
 	text-align: center;
+	font-family: "Indie Flower", sans-sarif;
+	font-weight: bold;
+}
+ .about {
+ 	display: inline-flex;
+ 	align-items: flex-start;
+ 	overflow: hidden;
+ 	height: 500px;
+ }
+
+.about p{
+	display: inline-flex;
+	position: relative;
+	float: right;
+	width: 30%;
+	border: 2px dashed peru;
+	margin-right: 130px;
+	padding: 15px;
+	font-family: optima, sans-sarif;
+	font-size: 20px;
 }
 
-figure.code {
-  	width: 50%;
+.about figure img{
+	display: flex;
+	width: 100%;
 }
 
 footer {
@@ -135,3 +155,4 @@ footer p {
 footer i {
 	margin-left: 20px;
 }
+
