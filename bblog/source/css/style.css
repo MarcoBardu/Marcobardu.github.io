@@ -148,6 +148,8 @@ p.lato, div.lato{
 		max-width: 100%;
 		flex-basis: 100%;
 	}
+	.about figure img{
+	width: 100%;
 }
 
 footer {
