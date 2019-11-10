@@ -76,7 +76,7 @@ main {
 	font-family: "sue ellen francisco", sans-sarif;
 	color: black;
 	padding: 0;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 h4{
@@ -123,12 +123,13 @@ figure.beach figcaption {
  	align-items: flex-start;
  }
 
-.about p{
+p.lato, div.lato{
 	border: 2px dashed peru;
 	padding: 15px;
 	font-family: optima, sans-sarif;
 	font-size: 20px;
-	max-width: 40%;
+	max-width: 100%;
+	flex-basis: 550px;
 }
 
 .about figure{
@@ -145,6 +146,7 @@ figure.beach figcaption {
 	}
 	.about p {
 		max-width: 100%;
+		flex-basis: 100%;
 	}
 }
 
@@ -167,4 +169,7 @@ p.footnote {
 	font-size: 14px;
 }
 
+iframe{
+	margin: 20px;
+}
 
