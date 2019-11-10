@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 39px;
 	font-family: "sue ellen francisco", sans-sarif;
 	margin: 0;
 	line-height: 1;
@@ -108,7 +108,7 @@ figure.beach {
 	}
 
 figure.beach img {
-	width: 700px;
+	width: 100%;
 	height: auto;
 	}
 
@@ -143,10 +143,13 @@ figure.beach figcaption {
 	.about {
 		flex-wrap: wrap-reverse;
 	}
+	.about p {
+		max-width: 100%;
+	}
 }
 
 footer {
-	height: 100px;
+	height: auto;
 	background-color: lightsteelblue;
 	position: relative;
 	top: 250px;
@@ -159,4 +162,9 @@ footer p {
 footer i {
 	margin-left: 20px;
 }
+
+p.footnote {
+	font-size: 14px;
+}
+
 
