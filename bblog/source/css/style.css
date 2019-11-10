@@ -117,28 +117,32 @@ figure.beach figcaption {
 	font-family: "Indie Flower", sans-sarif;
 	font-weight: bold;
 }
- .about {
+ 
+.about {
  	display: inline-flex;
  	align-items: flex-start;
- 	overflow: hidden;
- 	height: 500px;
  }
 
 .about p{
-	display: inline-flex;
-	position: relative;
-	float: right;
-	width: 30%;
 	border: 2px dashed peru;
-	margin-right: 130px;
 	padding: 15px;
 	font-family: optima, sans-sarif;
 	font-size: 20px;
+	max-width: 40%;
+}
+
+.about figure{
+	max-width: 700px;
 }
 
 .about figure img{
-	display: flex;
-	width: 100%;
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+	.about {
+		flex-wrap: wrap-reverse;
+	}
 }
 
 footer {
