@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
 	background-color: LightGoldenRodYellow;
 }
@@ -12,7 +17,7 @@ header {
 	z-index: 2;
 }
 
-h1 {
+header h1 {
 	color: saddlebrown;
 	font-size: 60px;
 	font-family: "Indie Flower", sans-sarif;
@@ -20,7 +25,7 @@ h1 {
 	font-weight: bold;
 }
 
-h2 {
+header h2 {
 	font-size: 39px;
 	font-family: "sue ellen francisco", sans-sarif;
 	margin: 0;
@@ -52,7 +57,6 @@ nav ul li:hover {
 }
 
 
-
 nav ul li a {
 		color: peru;
 		text-decoration: none;
@@ -76,10 +80,10 @@ main {
 	font-family: "sue ellen francisco", sans-sarif;
 	color: black;
 	padding: 0;
-	line-height: 1.5;
+	line-height: 1;
 }
 
-h4{
+.description h4{
 	font-family: itim, sans-sarif;
 	font-size: 25px;
 	line-height: 0;
@@ -97,66 +101,66 @@ li {
 	line-height: 2;
 }
 
-#too {
+.barrato {
 	text-decoration: line-through;
 }
 
-figure.beach {
+figure#beach {
 	width:50%;
 	margin-left: auto;
   	margin-right: auto;
+  	height: auto;
 	}
 
-figure.beach img {
+figure#beach img {
 	width: 100%;
 	height: auto;
 	}
 
-figure.beach figcaption {
+figcaption {
 	text-align: center;
 	font-family: "Indie Flower", sans-sarif;
 	font-weight: bold;
 }
- 
-.about {
- 	display: inline-flex;
- 	align-items: flex-start;
- }
 
-p.lato, div.lato{
+.fianco {
+	display: inline-flex;
+}
+
+p.lato {
 	border: 2px dashed peru;
 	padding: 15px;
 	font-family: optima, sans-sarif;
 	font-size: 20px;
 	max-width: 100%;
 	flex-basis: 550px;
+	display: inline-flex;
 }
 
-.about figure{
-	max-width: 700px;
+figure#coding{
+	max-width: 750px;
+	display: inline-flex;
 }
 
-.about figure img{
+figure#coding img{
 	max-width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
-	.about {
+	.fianco {
 		flex-wrap: wrap-reverse;
 	}
-	.about p {
+	.fianco p {
 		max-width: 100%;
 		flex-basis: 100%;
 	}
-	.about figure img{
+	.fianco figure img{
 	width: 100%;
 }
 
 footer {
 	height: auto;
 	background-color: lightsteelblue;
-	position: relative;
-	top: 250px;
 }
 
 footer p {
