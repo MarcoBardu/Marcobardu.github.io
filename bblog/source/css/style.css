@@ -88,7 +88,7 @@ main {
 	font-size: 30px;
 	font-family: "sue ellen francisco", sans-sarif;
 	color: black;
-	line-height: 1;
+	line-height: 1.5;
 }
 
 /* intro */
@@ -134,6 +134,7 @@ figcaption {
 	text-align: center;
 	font-family: "Indie Flower", sans-sarif;
 	font-weight: bold;
+	margin-top: 3px;
 }
 
 figure#beach img {
@@ -191,33 +192,27 @@ footer {
 	top: 190px;
 }
 
-footer p {
-	margin: 20px 20px;
+#social {
+	display: inline-block;
+	margin: 20px;
+	width: 1000px;
 }
 
 footer i {
-	margin-left: 20px;
-}
-
-p.footnote {
-	font-size: 14px;
-	line-height: 1;
+	margin: 20px 0 20px 20px;
 }
 
 #sponsor {
-	margin: 0 0 0 300px;
+	display: inline-block;
+	float: right;
+	width: 120px;
+	margin: 20px 40px;
 }
 
 #sponsor img {
-	width: 60px;
+	width: 70px;
 	margin: 0 auto;
-	position: relative;
-	bottom: 24px;
-	left: 38px;
-}
-
-strong.principle {
-	color: red;
+	display: block;
 }
 
 /* footer */
@@ -225,7 +220,7 @@ strong.principle {
 
 /* video */
 
-iframe{
+iframe.mouse{
 	margin: 0;
 	padding: 0;
 	min-width: 750px;
@@ -235,8 +230,52 @@ iframe{
 
 
 
+/* album */
+.album {							/* primo livello*/
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.foto figure {						/* secondo livello*/
+	margin: 10px;
+	width: 800px;
+	display: block;
+}
+
+.album .foto img {					/* terzo livello*/
+	width: 750px;
+	margin: 0 auto;
+}
+
+.album .commento { 					/* secondo livello*/
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 530px;
+	margin: 10px;
+}
+.commento p {						/* terzo livello*/
+	width: 500px;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+iframe.maps{						/* terzo livello*/
+	margin: 10px;
+	display: inline-block;
+	border: 1px solid ;
+}
+
+/* /album */
+
+
+
 /* text decoration */
 
 .barrato {
 	text-decoration: line-through;
+}
+
+strong.principle {
+	color: red;
 }
