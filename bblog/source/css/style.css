@@ -1,3 +1,4 @@
+/* general */
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +8,15 @@ html {
 	background-color: LightGoldenRodYellow;
 }
 
+/* /general */
+/* header */
+
 header {
 	background-image: url("../images/indexheader.jpg");
 	background-size: cover;
 	text-align: center;
 	width: 100%;
-	height: 190px;
+	height: 170px;
 	position: fixed;
 	z-index: 2;
 }
@@ -66,56 +70,65 @@ nav ul li a {
 nav ul li a:hover {
 		color: white;
 }
+/* /header */
 
 
 main {
-	margin: 0 0 0 15px;
 	position: relative;
-	top: 240px;
+	top: 190px;
 	z-index: 1;
+}
+
+/* intro */
+.intro {
+	margin: 5px 20px 50px 20px;
 }
 
 .intro h3 {
 	font-size: 30px;
 	font-family: "sue ellen francisco", sans-sarif;
 	color: black;
-	padding: 0;
 	line-height: 1;
+}
+
+/* intro */
+
+/*description */
+
+.description {
+	margin: 20px;
 }
 
 .description h4{
 	font-family: itim, sans-sarif;
 	font-size: 25px;
-	line-height: 0;
+	line-height: 1.5;
 }
 
 p {
 	font-family: optima, sans-sarif;
 	font-size: 17px;
 	line-height: 2;
+	margin-left: 10px;
 }
 
 li {
 	font-family: optima, sans-sarif;
 	font-size: 17px;
 	line-height: 2;
+	margin-left: 70px;
 }
 
-.barrato {
-	text-decoration: line-through;
-}
+/* /description */
 
-figure#beach {
-	width:50%;
-	margin-left: auto;
-  	margin-right: auto;
-  	height: auto;
-	}
 
-figure#beach img {
-	width: 100%;
+/* figures */
+
+figure img{
+	display: block;
+	margin: 0 auto;
 	height: auto;
-	}
+}
 
 figcaption {
 	text-align: center;
@@ -123,44 +136,59 @@ figcaption {
 	font-weight: bold;
 }
 
+figure#beach img {
+	width:750px;
+}
+
+figure#coding img {
+	width:750px;
+}
+
+
+/* /figures */
+
+
+/* affiancto */
 .fianco {
 	display: inline-flex;
+	align-items: flex-start;
 }
 
 p.lato {
 	border: 2px dashed peru;
 	padding: 15px;
-	font-family: optima, sans-sarif;
-	font-size: 20px;
-	max-width: 100%;
-	flex-basis: 550px;
-	display: inline-flex;
-}
-
-figure#coding{
-	max-width: 750px;
-	display: inline-flex;
-}
-
-figure#coding img{
-	max-width: 100%;
 }
 
 @media only screen and (max-width: 1000px) {
 	.fianco {
 		flex-wrap: wrap-reverse;
 	}
-	.fianco p {
-		max-width: 100%;
-		flex-basis: 100%;
-	}
-	.fianco figure img{
-	width: 100%;
 }
 
+h5 {
+	font-family: optima, sans-sarif;	
+	font-weight: bold;
+}
+
+.fianco ol {
+	display: inline-flex;
+}
+
+.punto {
+	color: darkmagenta;
+	font-weight: bold;
+}
+
+
+/* /affiancto */
+
+
+/* footer */
+
 footer {
-	height: auto;
 	background-color: lightsteelblue;
+	position: relative;
+	top: 190px;
 }
 
 footer p {
@@ -173,9 +201,42 @@ footer i {
 
 p.footnote {
 	font-size: 14px;
+	line-height: 1;
 }
+
+#sponsor {
+	margin: 0 0 0 300px;
+}
+
+#sponsor img {
+	width: 60px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 24px;
+	left: 38px;
+}
+
+strong.principle {
+	color: red;
+}
+
+/* footer */
+
+
+/* video */
 
 iframe{
-	margin: 20px;
+	margin: 0;
+	padding: 0;
+	min-width: 750px;
+	min-height: 400px;
 }
+/* video */
 
+
+
+/* text decoration */
+
+.barrato {
+	text-decoration: line-through;
+}
