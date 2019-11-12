@@ -246,6 +246,17 @@ iframe.mouse{
 .album .foto img {					/* terzo livello*/
 	width: 750px;
 	margin: 0 auto;
+
+}
+
+figure video {					/* terzo livello*/
+	margin: 0 auto;
+	display: block;
+}
+
+#verticale{							/* quarto livello*/
+	width: 500px;
+	margin: 0 auto;
 }
 
 .album .commento { 					/* secondo livello*/
@@ -253,6 +264,7 @@ iframe.mouse{
 	flex-wrap: wrap;
 	width: 530px;
 	margin: 10px;
+	align-items: center;
 }
 .commento p {						/* terzo livello*/
 	width: 500px;
@@ -261,7 +273,7 @@ iframe.mouse{
 }
 
 iframe.maps{						/* terzo livello*/
-	margin: 10px;
+	margin: 0 10px;
 	display: inline-block;
 	border: 1px solid ;
 }
