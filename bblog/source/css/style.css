@@ -237,16 +237,31 @@ iframe.mouse{
 	margin-bottom: 10px;
 }
 
-.foto figure {						/* secondo livello*/
+.foto {								/* secondo livello*/
 	margin: 10px;
 	width: 800px;
-	display: block;
+	display: inline-flex;
 }
 
-.album .foto img {					/* terzo livello*/
+.commento { 									/* secondo livello*/
+	display: inline-flex;
+	flex-wrap: wrap;
+	width: 530px;
+	margin: 10px;
+	align-items: center;
+	align-content: space-between;
+	overflow: hidden;
+}
+
+.foto figure {					/* terzo livello*/
 	width: 750px;
 	margin: 0 auto;
+}
 
+.foto figure img{					/* terzo livello*/
+	width: 750px;
+	height: auto;
+	display: block;
 }
 
 figure video {					/* terzo livello*/
@@ -259,13 +274,19 @@ figure video {					/* terzo livello*/
 	margin: 0 auto;
 }
 
-.album .commento { 					/* secondo livello*/
-	display: inline-flex;
-	flex-wrap: wrap;
-	width: 530px;
-	margin: 10px;
-	align-items: center;
+.album .foto #doppio {							/* quarto livello*/
+	width: 400px;
+	display: inline-block;
 }
+
+.album .foto #doppio img{							/* quarto livello*/
+	width: 380px;
+	height: auto;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+
 .commento p {						/* terzo livello*/
 	width: 500px;
 	display: inline-block;
@@ -273,7 +294,7 @@ figure video {					/* terzo livello*/
 }
 
 iframe.maps{						/* terzo livello*/
-	margin: 0 10px;
+	margin: 25px 10px;
 	display: inline-block;
 	border: 1px solid ;
 }
