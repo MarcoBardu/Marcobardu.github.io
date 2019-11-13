@@ -190,23 +190,20 @@ footer {
 	background-color: lightsteelblue;
 	position: relative;
 	top: 190px;
+	display: flex;
+	justify-content: space-between;
 }
 
 #social {
-	display: inline-block;
 	margin: 20px;
-	width: 1000px;
 }
 
-footer i {
+i {
 	margin: 20px 0 20px 20px;
 }
 
 #sponsor {
-	display: inline-block;
-	float: right;
-	width: 120px;
-	margin: 20px 40px;
+	margin: 20px 50px 20px 0;
 }
 
 #sponsor img {
