@@ -7,8 +7,8 @@
 html {
 	background-color: LightGoldenRodYellow;
 }
-
 /* /general */
+
 /* header */
 
 header {
@@ -77,29 +77,22 @@ main {
 	position: relative;
 	top: 190px;
 	z-index: 1;
+	margin: 0 30px;
 }
 
 /* intro */
-.intro {
-	margin: 5px 20px 50px 20px;
-}
-
 .intro h3 {
 	font-size: 30px;
 	font-family: "sue ellen francisco", sans-sarif;
 	color: black;
 	line-height: 1.5;
+	margin: 0 20px 20px 20px;
 }
-
 /* intro */
 
-/*description */
+/*standard*/
 
-.description {
-	margin: 20px;
-}
-
-.description h4{
+h4 {
 	font-family: itim, sans-sarif;
 	font-size: 25px;
 	line-height: 1.5;
@@ -116,18 +109,17 @@ li {
 	font-family: optima, sans-sarif;
 	font-size: 17px;
 	line-height: 2;
-	margin-left: 70px;
+	margin-left: 32px;
 }
 
-/* /description */
+/* /standard*/
 
 
 /* figures */
 
-figure img{
-	display: block;
+figure {
+	width: 750px;
 	margin: 0 auto;
-	height: auto;
 }
 
 figcaption {
@@ -137,42 +129,22 @@ figcaption {
 	margin-top: 3px;
 	display: block;
 }
-
-figure#beach img {
-	width:750px;
-}
-
-figure#coding img {
-	width:750px;
-}
-
-
 /* /figures */
 
 
-/* affiancto */
-.fianco {
-	display: inline-flex;
-	align-items: flex-start;
-}
+/*thoughts*/
 
-p.lato {
-	border: 2px dashed peru;
-	padding: 15px;
-}
-
-@media only screen and (max-width: 1000px) {
-	.fianco {
-		flex-wrap: wrap-reverse;
-	}
-}
-
-h5 {
+.proscons h5 {
 	font-family: optima, sans-sarif;	
 	font-weight: bold;
+	margin-left: 20px;
 }
 
-.fianco ol {
+.proscons {
+	display: flex;
+}
+
+.proscons ol {
 	display: inline-flex;
 }
 
@@ -182,7 +154,7 @@ h5 {
 }
 
 
-/* /affiancto */
+/* /thoughts */
 
 
 /* footer */
@@ -211,90 +183,72 @@ i {
 	width: 70px;
 	margin: 0 auto;
 	display: block;
+	border: none;
 }
 
 /* footer */
 
 
-/* video */
-
-iframe.mouse{
-	margin: 0;
-	padding: 0;
-	min-width: 750px;
-	min-height: 400px;
-}
-/* video */
-
-
-
 /* album */
 .album {							/* primo livello*/
 	display: flex;
+	margin-bottom: 20px;
 	flex-wrap: wrap;
-	margin-bottom: 10px;
 }
 
 .foto {								/* secondo livello*/
-	margin: 10px;
 	width: 800px;
 	display: inline-flex;
 }
 
-.commento { 									/* secondo livello*/
-	display: inline-flex;
-	flex-wrap: wrap;
-	width: 530px;
-	margin: 10px;
-	align-items: center;
+.commento { 
+	display: inline-flex;	
+	flex-wrap: wrap;							/* secondo livello*/
+	width: 550px;
 	align-content: space-between;
-	overflow: hidden;
 }
 
-.foto figure {					/* terzo livello*/
+img {										/* quarto livello*/
 	width: 750px;
-	margin: 0 auto;
+	margin: 0 auto;	
+	border: 3px solid peru;	
 }
 
-.foto figure img{					/* terzo livello*/
-	width: 750px;
-	height: auto;
-	display: block;
+video {
+	margin-left: 25px;    	/*scopri xk non va il 0 auto margin */
+	border: 3px solid peru;
 }
 
-figure video {					/* terzo livello*/
-	margin: 0 auto;
-	display: block;
-}
 
-#verticale{							/* quarto livello*/
+figure #verticale{							/* quarto livello*/
 	width: 500px;
-	margin: 0 auto;
+	margin-left: 110px;		 /*scopri xk non va il 0 auto margin */
+
 }
 
-.album .foto #doppio {							/* quarto livello*/
-	width: 400px;
-	display: inline-block;
-}
-
-.album .foto #doppio img{							/* quarto livello*/
-	width: 380px;
+#doppio img {							
+	width: 350px;
 	height: auto;
-	margin: 0 auto;
+	margin: 0 25px;
 	display: inline-block;
 }
 
-
-.commento p {						/* terzo livello*/
+.commento p {									/* terzo livello*/
 	width: 500px;
-	display: inline-block;
-	margin: 0 20px;
 }
 
-iframe.maps{						/* terzo livello*/
-	margin: 25px 10px;
-	display: inline-block;
-	border: 1px solid ;
+.maps {
+	margin: 0 10px;
+}
+
+.maps iframe {
+	border: 2px solid black;
+	display: inline;
+	margin-bottom: 25px;
+}
+
+#doublemap {
+	margin-right: 10px;
 }
 
 /* /album */
@@ -309,4 +263,9 @@ iframe.maps{						/* terzo livello*/
 
 strong.principle {
 	color: red;
+}
+
+.decor {
+	border: 4px dashed peru;
+	padding: 5px 9px;
 }
