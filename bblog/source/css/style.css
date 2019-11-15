@@ -16,7 +16,7 @@ header {
 	background-size: cover;
 	text-align: center;
 	width: 100%;
-	height: 170px;
+	height: 167px;
 	position: fixed;
 	z-index: 2;
 }
@@ -53,21 +53,27 @@ nav ul li {
 	border: 1px solid peru;
 	border-radius: 5px;
 	background-color: LightGoldenRodYellow;
+}
+
+header nav ul li {
 	transition: background-color, color;
 }
 
-nav ul li:hover {
+header nav ul li:hover {
 	background-color: peru;
-}
 
+}
 
 nav ul li a {
 		color: peru;
 		text-decoration: none;
-		transition: color;
 }
 
-nav ul li a:hover {
+header nav ul li a {
+	transition: color;
+}
+
+header nav ul li a:hover {
 		color: white;
 }
 /* /header */
@@ -251,8 +257,145 @@ figure #verticale{							/* quarto livello*/
 	margin-right: 10px;
 }
 
-/* /album */
 
+/* city */
+
+nav ul #navMA {
+	border: 1px solid darkorange;
+}
+
+nav ul li #aMA {
+	color: darkorange;
+}
+
+nav ul #navGR {
+	border: 1px solid darkred;
+}
+
+nav ul li #aGR {
+	color: darkred;
+}
+
+nav ul #navCO {
+	border: 1px solid darkgreen;
+}
+
+nav ul li #aCO {
+	color: darkgreen;
+}
+
+nav ul #navSE {
+	border: 1px solid midnightblue;
+}
+
+nav ul li #aSE {
+	color: midnightblue;
+}
+
+nav ul #navCA {
+	border: 1px solid darkcyan;
+}
+
+nav ul li #aCA {
+	color: darkcyan;
+}
+
+.city h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: lavender;
+	text-align: center;
+	font-family: "sue ellen francisco", sans-sarif;
+}
+
+.city h2 {
+	font-family: optima, sans-sarif;
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 200;
+	margin: 30px;
+	text-align: center;
+}
+
+
+#Malaga h1 {
+	background-color: darkorange;
+}
+
+#Malaga {
+	border: 2px solid darkorange;
+	margin-bottom: 30px;
+}
+
+#Granada h1 {
+	background-color: darkred;
+}
+
+#Granada {
+	border: 2px solid darkred;
+	margin-bottom: 30px;
+}
+
+#Cordoba h1 {
+	background-color: darkgreen;
+}
+
+#Cordoba {
+	border: 2px solid darkgreen;
+	margin-bottom: 30px;
+}
+
+#Sevilla h1 {
+	background-color: midnightblue;
+}
+
+#Sevilla {
+	border: 2px solid midnightblue;
+	margin-bottom: 30px;
+}
+
+#Cadiz h1 {
+	background-color: darkcyan;
+}
+
+#Cadiz {
+	border: 2px solid darkcyan;
+	margin-bottom: 30px;
+}
+
+.cover {
+	height: 168px;
+	background-size: 500px 170px;
+}
+
+#Malaga .cover{
+	background-image: url("../images/Spain/Malaga/malagacover.jpg");
+}
+
+#Granada .cover{
+	background-image: url("../images/Spain/Granada/granadacover.jpg");
+}
+
+#Cordoba .cover{
+	background-image: url("../images/Spain/Cordoba/cordobacover.jpg");
+}
+
+#Sevilla .cover{
+	background-image: url("../images/Spain/Sevilla/sevillacover.jpg");
+}
+
+#Cadiz .cover{
+	background-image: url("../images/Spain/Cadiz/cadizcover.jpg");
+}
+
+.goback {
+	margin: 20px;
+	padding: 5px;
+	border: 2px dotted black;
+	text-decoration: none;
+	display: inline-block;
+}
+/* /city */
 
 
 /* text decoration */
