@@ -260,43 +260,43 @@ figure #verticale{							/* quarto livello*/
 
 /* city */
 
-nav ul #navMA {
+nav ul #nav1 {
 	border: 1px solid darkorange;
 }
 
-nav ul li #aMA {
+nav ul li #a1 {
 	color: darkorange;
 }
 
-nav ul #navGR {
+nav ul #nav2 {
 	border: 1px solid darkred;
 }
 
-nav ul li #aGR {
+nav ul li #a2 {
 	color: darkred;
 }
 
-nav ul #navCO {
+nav ul #nav3 {
 	border: 1px solid darkgreen;
 }
 
-nav ul li #aCO {
+nav ul li #a3 {
 	color: darkgreen;
 }
 
-nav ul #navSE {
+nav ul #nav4 {
 	border: 1px solid midnightblue;
 }
 
-nav ul li #aSE {
+nav ul li #a4 {
 	color: midnightblue;
 }
 
-nav ul #navCA {
+nav ul #nav5 {
 	border: 1px solid darkcyan;
 }
 
-nav ul li #aCA {
+nav ul li #a5 {
 	color: darkcyan;
 }
 
@@ -318,50 +318,51 @@ nav ul li #aCA {
 }
 
 
-#Malaga h1 {
+.city1 h1 {
 	background-color: darkorange;
 }
 
-#Malaga {
+.city1 {
 	border: 2px solid darkorange;
 	margin-bottom: 30px;
 }
 
-#Granada h1 {
+.city2 h1 {
 	background-color: darkred;
 }
 
-#Granada {
+.city2 {
 	border: 2px solid darkred;
 	margin-bottom: 30px;
 }
 
-#Cordoba h1 {
+.city3 h1 {
 	background-color: darkgreen;
 }
 
-#Cordoba {
+.city3 {
 	border: 2px solid darkgreen;
 	margin-bottom: 30px;
 }
 
-#Sevilla h1 {
+.city4 h1 {
 	background-color: midnightblue;
 }
 
-#Sevilla {
+.city4 {
 	border: 2px solid midnightblue;
-	margin-bottom: 30px;
+	margin-bottom: 30px;   
 }
 
-#Cadiz h1 {
+.city5 h1 {
 	background-color: darkcyan;
 }
 
-#Cadiz {
+.city5 {
 	border: 2px solid darkcyan;
 	margin-bottom: 30px;
 }
+
 
 .cover {
 	height: 168px;
@@ -386,6 +387,10 @@ nav ul li #aCA {
 
 #Cadiz .cover{
 	background-image: url("../images/Spain/Cadiz/cadizcover.jpg");
+}
+
+#Bangkok .cover{
+	background-image: url("../images/Thailand/Bangkok/bkkcover.jpg");
 }
 
 .goback {
