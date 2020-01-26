@@ -403,6 +403,11 @@ nav ul li #a5 {
 	background-repeat: repeat-x;
 }
 
+#Chiangrai .cover{
+	background-image: url("../images/Thailand/Chiangrai/chiangraicover.jpg");
+	background-repeat: repeat-x;
+}
+
 .goback {
 	margin: 20px;
 	padding: 5px;
