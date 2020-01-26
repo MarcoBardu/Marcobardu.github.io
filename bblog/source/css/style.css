@@ -398,6 +398,11 @@ nav ul li #a5 {
 	background-repeat: repeat-x;
 }
 
+#Pai .cover{
+	background-image: url("../images/Thailand/Pai/paicover.jpg");
+	background-repeat: repeat-x;
+}
+
 .goback {
 	margin: 20px;
 	padding: 5px;
