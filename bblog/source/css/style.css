@@ -408,6 +408,11 @@ nav ul li #a5 {
 	background-repeat: repeat-x;
 }
 
+#Islands .cover{
+	background-image: url("../images/Thailand/Islands/islandscover.jpg");
+	background-repeat: repeat-x;
+}
+
 .goback {
 	margin: 20px;
 	padding: 5px;
