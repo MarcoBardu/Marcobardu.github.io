@@ -64,6 +64,10 @@ header nav ul li:hover {
 
 }
 
+header nav ul li a:hover {
+		color: white;
+}
+
 nav ul li a {
 		color: peru;
 		text-decoration: none;
@@ -73,9 +77,7 @@ header nav ul li a {
 	transition: color;
 }
 
-header nav ul li a:hover {
-		color: white;
-}
+
 /* /header */
 
 
@@ -268,6 +270,15 @@ nav ul li #a1 {
 	color: darkorange;
 }
 
+nav ul #nav1:hover {
+	background-color: darkorange;
+}
+
+nav ul li #a1:hover {
+	color: white;
+}
+
+
 nav ul #nav2 {
 	border: 1px solid darkred;
 }
@@ -276,12 +287,29 @@ nav ul li #a2 {
 	color: darkred;
 }
 
+nav ul #nav2:hover {
+	background-color: darkred;
+}
+
+nav ul li #a2:hover {
+	color: white;
+}
+
+
 nav ul #nav3 {
 	border: 1px solid darkgreen;
 }
 
 nav ul li #a3 {
 	color: darkgreen;
+}
+
+nav ul #nav3:hover {
+	background-color: darkgreen;
+}
+
+nav ul li #a3:hover {
+	color: white;
 }
 
 nav ul #nav4 {
@@ -292,12 +320,28 @@ nav ul li #a4 {
 	color: midnightblue;
 }
 
+nav ul #nav4:hover {
+	background-color: midnightblue;
+}
+
+nav ul li #a4:hover {
+	color: white;
+}
+
 nav ul #nav5 {
 	border: 1px solid darkcyan;
 }
 
 nav ul li #a5 {
 	color: darkcyan;
+}
+
+nav ul #nav5:hover {
+	background-color: darkcyan;
+}
+
+nav ul li #a5:hover {
+	color: white;
 }
 
 .city h1 {
