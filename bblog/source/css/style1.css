@@ -1,8 +1,435 @@
+/* general */
 * {
-	margin: 10px;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-	background-color: rgba(20, 80, 10, 0.9);
+html {
+	background-color: rgb(48, 120, 22);
 }
+/* /general */
+
+/* header */
+
+header {
+	background-image: url("../images/indexheader1.jpg");
+	background-size: cover;
+	text-align: center;
+	width: 100%;
+	height: 167px;
+	position: fixed;
+	z-index: 2;
+}
+
+header h1 {
+	color: rgb(255,255,255);
+	font-size: 60px;
+	font-family: Tahoma, sans-sarif;
+	margin: 1px;
+	font-weight: bold;
+}
+
+header h2 {
+	font-size: 42px;
+	font-family: thaoma, sans-sarif;
+	margin: 3px;
+	line-height: 1;
+	color: rgb(192,116,116);
+}
+
+
+nav ul{
+	text-align: left;
+	padding: 10px;
+	margin-left: 15px;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 10px;
+	margin: 0 5px;
+	border: 2px solid rgb(181, 39, 200);
+	border-radius: 5px;
+	background-color: white;
+}
+
+header nav ul li {
+	transition: background-color, color;
+}
+
+header nav ul li:hover {
+	background-color: rgb(48, 120, 22);
+
+}
+
+header nav ul li a:hover {
+		color: white;
+}
+
+nav ul li a {
+		color: #174408;
+		text-decoration: none;
+}
+
+header nav ul li a {
+	transition: color;
+}
+
+
+/* /header */
+
+
+main {
+	position: relative;
+	top: 190px;
+	z-index: 1;
+	margin: 0 30px;
+}
+
+/* intro */
+.intro h3 {
+	font-size: 21px;
+	font-family: "Sanchez", serif;
+	font-weight: 300;
+	color: white;
+	line-height: 1.5;
+	margin: 20px auto;
+	width: 800px;
+	text-align: center;
+}
+/* intro */
+
+/*standard*/
+
+h4 {
+	font-family: itim, sans-sarif;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+p {
+	font-family: optima, sans-sarif;
+	font-size: 17px;
+	line-height: 2;
+	margin-left: 10px;
+}
+
+li {
+	font-family: optima, sans-sarif;
+	font-size: 17px;
+	line-height: 2;
+	margin-left: 32px;
+}
+
+/* /standard*/
+
+
+/* figures */
+
+figure {
+	width: 750px;
+	margin: 0 auto;
+}
+
+figcaption {
+	text-align: center;
+	font-family: "Indie Flower", sans-sarif;
+	font-weight: bold;
+	margin-top: 3px;
+	display: block;
+	color: #E6E6E6;
+}
+/* /figures */
+
+
+
+
+/* footer */
+
+footer {
+	background-color: lightsteelblue;
+	position: relative;
+	top: 190px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#social {
+	margin: 20px;
+}
+
+i {
+	margin: 20px 0 20px 20px;
+}
+
+#sponsor {
+	margin: 20px 50px 20px 0;
+}
+
+#sponsor img {
+	width: 70px;
+	margin: 0 auto;
+	display: block;
+	border: none;
+}
+
+/* footer */
+
+
+/* album */
+.album {							/* primo livello*/
+	display: flex;
+	margin-bottom: 20px;
+	flex-wrap: wrap;
+}
+
+.foto {								/* secondo livello*/
+	width: 800px;
+	display: inline-flex;
+}
+
+.commento { 
+	display: inline-flex;	
+	flex-wrap: wrap;							/* secondo livello*/
+	width: 550px;
+	align-content: space-between;
+}
+
+img {										/* quarto livello*/
+	width: 750px;
+	margin: 0 auto;	
+	border: 3px solid rgb(181, 39, 200);	
+}
+
+video {
+	margin-left: 25px;    	/*scopri xk non va il 0 auto margin */
+	border: 3px solid peru;
+}
+
+
+figure #verticale{							/* quarto livello*/
+	width: 500px;
+	margin-left: 110px;		 /*scopri xk non va il 0 auto margin */
+
+}
+
+#doppio img {							
+	width: 350px;
+	height: auto;
+	margin: 0 25px;
+	display: inline-block;
+}
+
+.commento p {									/* terzo livello*/
+	width: 500px;
+}
+
+.maps {
+	margin: 0 10px;
+}
+
+.maps iframe {
+	border: 2px solid black;
+	display: inline;
+	margin-bottom: 25px;
+}
+
+#doublemap {
+	margin-right: 10px;
+}
+
+
+/* city */
+
+nav ul #nav1 {
+	border: 1px solid darkorange;
+}
+
+nav ul li #a1 {
+	color: darkorange;
+}
+
+nav ul #nav1:hover {
+	background-color: darkorange;
+}
+
+nav ul li #a1:hover {
+	color: white;
+}
+
+
+nav ul #nav2 {
+	border: 1px solid darkred;
+}
+
+nav ul li #a2 {
+	color: darkred;
+}
+
+nav ul #nav2:hover {
+	background-color: darkred;
+}
+
+nav ul li #a2:hover {
+	color: white;
+}
+
+
+nav ul #nav3 {
+	border: 1px solid darkgreen;
+}
+
+nav ul li #a3 {
+	color: darkgreen;
+}
+
+nav ul #nav3:hover {
+	background-color: darkgreen;
+}
+
+nav ul li #a3:hover {
+	color: white;
+}
+
+nav ul #nav4 {
+	border: 1px solid midnightblue;
+}
+
+nav ul li #a4 {
+	color: midnightblue;
+}
+
+nav ul #nav4:hover {
+	background-color: midnightblue;
+}
+
+nav ul li #a4:hover {
+	color: white;
+}
+
+nav ul #nav5 {
+	border: 1px solid darkcyan;
+}
+
+nav ul li #a5 {
+	color: darkcyan;
+}
+
+nav ul #nav5:hover {
+	background-color: darkcyan;
+}
+
+nav ul li #a5:hover {
+	color: white;
+}
+
+.city h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: lavender;
+	text-align: center;
+	font-family: "sue ellen francisco", sans-sarif;
+}
+
+.city h2 {
+	font-family: optima, sans-sarif;
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 200;
+	margin: 30px auto;
+	text-align: center;
+	color: white;
+	width: 900px;
+}
+
+
+.city1 h1 {
+	background-color: darkorange;
+}
+
+.city1 {
+	border: 2px solid darkorange;
+	margin-bottom: 30px;
+}
+
+.city2 h1 {
+	background-color: darkred;
+}
+
+.city2 {
+	border: 2px solid darkred;
+	margin-bottom: 30px;
+}
+
+.city3 h1 {
+	background-color: darkgreen;
+}
+
+.city3 {
+	border: 2px solid darkgreen;
+	margin-bottom: 30px;
+}
+
+.city4 h1 {
+	background-color: midnightblue;
+}
+
+.city4 {
+	border: 2px solid midnightblue;
+	margin-bottom: 30px;   
+}
+
+.city5 h1 {
+	background-color: darkcyan;
+}
+
+.city5 {
+	border: 2px solid darkcyan;
+	margin-bottom: 30px;
+}
+
+
+.cover {
+	height: 168px;
+	background-size: 500px 170px;
+}
+
+#Saigon .cover{
+	background-image: url("../images/Vietnam/Saigon/saigoncover.jpg");
+}
+
+.goback {
+	margin: 20px;
+	padding: 5px;
+	border: 2px dotted black;
+	text-decoration: none;
+	display: inline-block;
+}
+/* /city */
+
+
+/* text decoration */
+
+.barrato {
+	text-decoration: line-through;
+}
+
+strong.principle {
+	color: red;
+}
+
+.decor {
+	border: 4px dashed peru;
+	padding: 5px 9px;
+}
+
+#Noir {
+	background-color: black;
+	width: 750px;
+	height: 350px;
+	border: 3px solid rgb(181, 39, 200);
+}
+
+
