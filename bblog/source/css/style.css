@@ -22,10 +22,10 @@ header {
 }
 
 header h1 {
-	color: saddlebrown;
+	color: #CFF1F2;
 	font-size: 60px;
-	font-family: "Indie Flower", sans-sarif;
-	margin: 0;
+	font-family: roboto, sans-sarif;
+	margin: 6px;
 	font-weight: bold;
 }
 
