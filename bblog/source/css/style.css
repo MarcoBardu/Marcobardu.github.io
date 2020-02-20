@@ -415,46 +415,52 @@ nav ul li #a5:hover {
 
 #Malaga .cover{
 	background-image: url("../images/Spain/Malaga/malagacover.jpg");
+	background-repeat: round;
 }
 
 #Granada .cover{
 	background-image: url("../images/Spain/Granada/granadacover.jpg");
+	background-repeat: round;
 }
 
 #Cordoba .cover{
 	background-image: url("../images/Spain/Cordoba/cordobacover.jpg");
+	background-repeat: round;
 }
 
 #Sevilla .cover{
 	background-image: url("../images/Spain/Sevilla/sevillacover.jpg");
+	background-repeat: round;
 }
 
 #Cadiz .cover{
 	background-image: url("../images/Spain/Cadiz/cadizcover.jpg");
+	background-repeat: round;
 }
 
 #Bangkok .cover{
 	background-image: url("../images/Thailand/Bangkok/bkkcover.jpg");
+	background-repeat: round;
 }
 
 #Chiangmai .cover{
 	background-image: url("../images/Thailand/Chiangmai/chiangmaicover.jpg");
-	background-repeat: repeat-x;
+	background-repeat: round;
 }
 
 #Pai .cover{
 	background-image: url("../images/Thailand/Pai/paicover.jpg");
-	background-repeat: repeat-x;
+	background-repeat: round;
 }
 
 #Chiangrai .cover{
 	background-image: url("../images/Thailand/Chiangrai/chiangraicover.jpg");
-	background-repeat: repeat-x;
+	background-repeat: round;
 }
 
 #Islands .cover{
 	background-image: url("../images/Thailand/Islands/islandscover.jpg");
-	background-repeat: repeat-x;
+	background-repeat: round;
 }
 
 .goback {

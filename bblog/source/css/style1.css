@@ -325,6 +325,22 @@ nav ul li #a5:hover {
 	color: white;
 }
 
+nav ul #nav6 {
+	border: 1px solid darkmagenta;
+}
+
+nav ul li #a6 {
+	color: darkmagenta;
+}
+
+nav ul #nav6:hover {
+	background-color: darkmagenta;
+}
+
+nav ul li #a6:hover {
+	color: white;
+}
+
 .city h1 {
 	font-size: 40px;
 	font-weight: bold;
@@ -390,6 +406,15 @@ nav ul li #a5:hover {
 	margin-bottom: 30px;
 }
 
+.city6 h1 {
+	background-color: darkmagenta;
+}
+
+.city6 {
+	border: 2px solid darkmagenta;
+	margin-bottom: 30px;
+}
+
 
 .cover {
 	height: 168px;
@@ -398,6 +423,12 @@ nav ul li #a5:hover {
 
 #Saigon .cover{
 	background-image: url("../images/Vietnam/Saigon/saigoncover.jpg");
+	background-repeat: round;
+}
+
+#Dalat .cover{
+	background-image: url("../images/Vietnam/Dalat/dalatcover.jpg");
+	background-repeat: round;
 }
 
 .goback {
