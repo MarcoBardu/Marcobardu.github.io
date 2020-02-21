@@ -431,6 +431,11 @@ nav ul li #a6:hover {
 	background-repeat: round;
 }
 
+#HoiAn .cover{
+	background-image: url("../images/Vietnam/Hoian/hoiancover.jpg");
+	background-repeat: round;
+}
+
 .goback {
 	margin: 20px;
 	padding: 5px;
