@@ -436,6 +436,11 @@ nav ul li #a6:hover {
 	background-repeat: round;
 }
 
+#Phong .cover{
+	background-image: url("../images/Vietnam/Phong/phongcover.jpg");
+	background-repeat: round;
+}
+
 .goback {
 	margin: 20px;
 	padding: 5px;
