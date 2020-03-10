@@ -441,6 +441,17 @@ nav ul li #a6:hover {
 	background-repeat: round;
 }
 
+#Halong .cover{
+	background-image: url("../images/Vietnam/Halong/halongcover.jpg");
+	background-repeat: round;
+}
+
+#Hanoi .cover{
+	background-image: url("../images/Vietnam/Hanoi/hanoicover.jpg");
+	background-repeat: round;
+}
+
+
 .goback {
 	margin: 20px;
 	padding: 5px;
