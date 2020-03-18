@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+@media only screen and (max-width: 480px) {
+  body {
+    width: 480px;
+  }
+}
+
+
 h1, h2, h3, figcaption {
 	text-align: center;
 	font-family: 'Oleo Script', cursive;
