@@ -1,0 +1,265 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, figcaption {
+	text-align: center;
+	font-family: 'Oleo Script', cursive;
+}
+
+p {
+	text-align: justify;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+header {
+	display: flex;
+	background-color: #DCF7F7;
+	padding-bottom: 10px;
+}
+
+nav {
+	width: 15%;
+	align-items: center;
+	margin: 240px 20px 280px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+nav h2 {
+	color: darkblue;
+	font-size: 35px;
+}
+
+nav ul {
+	text-align: center;
+	list-style-type: none;
+	width: 80%;
+}
+
+nav ul li {
+	margin: 30px;
+	font-size: 20px;
+	border: 2px solid darkblue;
+	border-radius: 5px;
+}
+
+nav ul li a {
+	color: #7e587c;
+	font-weight: bold;
+}
+
+.title {
+	width: 800px;
+}
+
+.title img {
+	width: 800px;
+	z-index: 1;
+	height: 1000px;
+}
+
+.title h1	{
+	color: #7e587c;
+	z-index: 2;
+	position: absolute;
+	top: 110px;
+	margin-left: 330px;
+	font-size: 35px;
+}
+
+.title h2 {
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.title h2 a {
+	color: #7e587c;
+}
+
+.intro {
+	width: 25%;
+}
+
+.intro p {
+	margin: 50px 50px 0 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* end header */
+
+/*main*/
+
+main {
+	margin: 0;
+	width: 100%;
+}
+
+.album {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 30px 0 30px 0;
+}
+
+#Lujiazui {
+	background-color: #E5FBFD;
+}
+
+#Bund {
+	background-color: #B6CBCD;
+}
+
+#Modern {
+	background-color: #9AAFB2;
+}
+
+#Fun {
+	background-color: #809294;
+}
+
+#Friends {
+	background-image: url("../images/Shanghai/love.jpg");
+}
+
+figure .orizzontale {
+	width: 680px;
+	height: auto;
+}
+
+figure .whole {
+	width: 1400px;
+	height: auto;
+}
+
+figure .verticale {
+	width: 550px;
+	height: auto;
+}
+
+figure .wide {
+	width: 800px;
+	height: auto;
+}
+
+figure {
+	margin: 10px;
+}
+
+figcaption {
+	color: darkblue;
+	font-weight: bold;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+.album .description {
+	width: 680px;
+	margin: 10px;
+}
+
+.description h3 {
+	font-size: 26px;
+	color: darkblue;
+}
+
+.description p {
+	margin: 10px;
+	font-size: 21px;
+	padding: 0 40px;
+}
+
+.traslato {
+	position: relative;
+	bottom: 170px;
+	left: 30px;
+}
+
+#Modern .orizzontale {
+	width: 750px;
+	height: auto;
+}
+
+#short {
+	height: 355px;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+#Modern {
+	height: 1200px; /*why?!?!?*/
+}
+
+.soundtrack {
+	width: 500px;
+	height: 465px;
+	margin: 10px 0 0 50px;
+	background-color: #37456E;
+
+}
+
+.soundtrack h3 {
+	color: #93C4C7;
+	font-size: 25px;
+	margin: 10px 0 0 0;
+}
+
+.soundtrack ul {
+	margin: 20px 0 0 60px;
+}
+
+.soundtrack li {
+	color: white;
+	font-size: 20px;
+	line-height: 32px;
+	font-family: 'Baloo Chettan 2', cursive;
+}
+
+#Friends .description {
+	background-color: #93C4C7;
+}
+
+#Friends .description p {
+	text-align: center;
+}
+
+#Friends {
+	height: 650px;
+}
+
+/* /main */
+
+/* footer */
+
+footer {
+	background-color: lightsteelblue;
+	display: flex;
+	justify-content: space-between;
+}
+
+#social {
+	margin: 20px;
+}
+
+i {
+	margin: 20px 0 20px 20px;
+}
+
+#sponsor {
+	margin: 20px 50px 20px 0;
+}
+
+#sponsor img {
+	width: 70px;
+	margin: 0 auto;
+	display: block;
+	border: none;
+}
+/* /footer */
