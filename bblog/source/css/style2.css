@@ -4,11 +4,11 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 480px) {
-  body {
-    width: 480px;
+/*@media only screen and (max-width: 768px) {
+  html {
+    font-size: 8px;
   }
-}
+}*/
 
 
 h1, h2, h3, figcaption {
@@ -24,13 +24,13 @@ p {
 header {
 	display: flex;
 	background-color: #DCF7F7;
-	padding-bottom: 10px;
+	padding-bottom: 0.625rem;
 }
 
 nav {
 	width: 15%;
 	align-items: center;
-	margin: 240px 20px 280px 20px;
+	margin: 15rem 1.25rem 17.5rem 1.25rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -38,7 +38,7 @@ nav {
 
 nav h2 {
 	color: darkblue;
-	font-size: 35px;
+	font-size: 2rem;
 }
 
 nav ul {
@@ -48,10 +48,10 @@ nav ul {
 }
 
 nav ul li {
-	margin: 30px;
-	font-size: 20px;
-	border: 2px solid darkblue;
-	border-radius: 5px;
+	margin: 1.875rem;
+	font-size: 1.25rem;
+	border: 0.125rem solid darkblue;
+	border-radius: 0.3125rem;
 }
 
 nav ul li a {
@@ -60,27 +60,27 @@ nav ul li a {
 }
 
 .title {
-	width: 800px;
+	width: 50rem;
 }
 
 .title img {
-	width: 800px;
+	width: 50rem;
 	z-index: 1;
-	height: 1000px;
+	height: 62.5rem;
 }
 
 .title h1	{
 	color: #7e587c;
 	z-index: 2;
 	position: absolute;
-	top: 110px;
-	margin-left: 330px;
-	font-size: 35px;
+	top: 6.875rem;
+	margin-left: 20.6rem;
+	font-size: 2.2rem;
 }
 
 .title h2 {
-	margin-top: 5px;
-	font-size: 20px;
+	margin-top: 0.3125rem;
+	font-size: 1.25rem;
 }
 
 .title h2 a {
@@ -92,9 +92,9 @@ nav ul li a {
 }
 
 .intro p {
-	margin: 50px 50px 0 50px;
-	font-size: 20px;
-	line-height: 50px;
+	margin: 3.125rem 3.125rem 0 3.125rem;
+	font-size: 1.25rem;
+	line-height: 3.125rem;
 }
 
 a {
@@ -114,7 +114,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 30px 0 30px 0;
+	padding: 1.875rem 0 1.875rem 0;
 }
 
 #Lujiazui {
@@ -138,27 +138,27 @@ main {
 }
 
 figure .orizzontale {
-	width: 680px;
+	width: 42.5rem;
 	height: auto;
 }
 
 figure .whole {
-	width: 1400px;
+	width: 87.5rem;
 	height: auto;
 }
 
 figure .verticale {
-	width: 550px;
+	width: 34.375rem;
 	height: auto;
 }
 
 figure .wide {
-	width: 800px;
+	width: 50rem;
 	height: auto;
 }
 
 figure {
-	margin: 10px;
+	margin: 0.625rem;
 }
 
 figcaption {
@@ -168,64 +168,63 @@ figcaption {
 }
 
 .album .description {
-	width: 680px;
-	margin: 10px;
+	width: 42.5rem;
+	margin: 0.625rem;
 }
 
 .description h3 {
-	font-size: 26px;
+	font-size: 1.625rem;
 	color: darkblue;
 }
 
 .description p {
-	margin: 10px;
-	font-size: 21px;
-	padding: 0 40px;
+	margin: 0.625rem;
+	font-size: 1.3125rem;
+	padding: 0 2.5rem;
 }
 
 .traslato {
 	position: relative;
-	bottom: 170px;
-	left: 30px;
+	bottom: 10.625rem;
+	left: 1.875rem;
 }
 
 #Modern .orizzontale {
-	width: 750px;
+	width: 46.875rem;
 	height: auto;
 }
 
 #short {
-	height: 355px;
-	margin-left: 60px;
-	margin-top: 30px;
+	height: 22.188rem;
+	margin-left: 3.75rem;
+	margin-top: 1.875rem;
 }
 
 #Modern {
-	height: 1200px; /*why?!?!?*/
+	height: 75rem; /*why?!?!?*/
 }
 
 .soundtrack {
-	width: 500px;
-	height: 465px;
-	margin: 10px 0 0 50px;
+	width: 31.25rem;
+	height: 29rem;
+	margin: 0.625rem 0 0 3.125rem;
 	background-color: #37456E;
-
 }
 
 .soundtrack h3 {
 	color: #93C4C7;
-	font-size: 25px;
-	margin: 10px 0 0 0;
+	font-size: 1.5625rem;
+	margin: 0.625rem 0 0 0;
 }
 
 .soundtrack ul {
-	margin: 20px 0 0 60px;
+	margin: 1.25rem 0 0 3.75rem;
 }
 
 .soundtrack li {
 	color: white;
-	font-size: 20px;
-	line-height: 32px;
+	font-size: 1.25rem;
+	line-height: 2rem;
 	font-family: 'Baloo Chettan 2', cursive;
 }
 
@@ -238,7 +237,7 @@ figcaption {
 }
 
 #Friends {
-	height: 650px;
+	height: 40.625rem;
 }
 
 /* /main */
