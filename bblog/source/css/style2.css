@@ -4,13 +4,6 @@
   padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
-  html {
-    font-size: 4px;
-  }
-}
-
-
 h1, h2, h3, figcaption {
 	text-align: center;
 	font-family: 'Oleo Script', cursive;
@@ -66,7 +59,6 @@ nav ul li a {
 .title img {
 	width: 50rem;
 	z-index: 1;
-	height: 62.5rem;
 }
 
 .title h1	{
@@ -135,30 +127,28 @@ main {
 
 #Friends {
 	background-image: url("../images/Shanghai/love.jpg");
+	background-size: cover;
 }
 
 figure .orizzontale {
 	width: 42.5rem;
-	height: auto;
 }
 
 figure .whole {
 	width: 87.5rem;
-	height: auto;
 }
 
 figure .verticale {
 	width: 34.375rem;
-	height: auto;
 }
 
 figure .wide {
 	width: 50rem;
-	height: auto;
 }
 
 figure {
 	margin: 0.625rem;
+	border: 1px solid orange;
 }
 
 figcaption {
@@ -168,8 +158,9 @@ figcaption {
 }
 
 .album .description {
-	width: 42.5rem;
+	width: 42rem;
 	margin: 0.625rem;
+	border: 1px solid orange;
 }
 
 .description h3 {
@@ -187,6 +178,7 @@ figcaption {
 	position: relative;
 	bottom: 10.625rem;
 	left: 1.875rem;
+	overflow: hidden;
 }
 
 #Modern .orizzontale {
@@ -198,10 +190,6 @@ figcaption {
 	height: 22.188rem;
 	margin-left: 3.75rem;
 	margin-top: 1.875rem;
-}
-
-#Modern {
-	height: 75rem; /*why?!?!?*/
 }
 
 .soundtrack {
@@ -234,10 +222,6 @@ figcaption {
 
 #Friends .description p {
 	text-align: center;
-}
-
-#Friends {
-	height: 40.625rem;
 }
 
 /* /main */
