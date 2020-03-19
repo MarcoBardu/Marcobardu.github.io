@@ -4,6 +4,13 @@
   padding: 0;
 }
 
+/*@media only screen and (max-width: 800px) {
+	.title {
+		width: 100%;
+		border: 2px solid red;
+	}
+}*/
+
 h1, h2, h3, figcaption {
 	text-align: center;
 	font-family: 'Oleo Script', cursive;
@@ -17,7 +24,6 @@ p {
 header {
 	display: flex;
 	background-color: #DCF7F7;
-	padding-bottom: 0.625rem;
 }
 
 nav {
@@ -53,25 +59,24 @@ nav ul li a {
 }
 
 .title {
-	width: 50rem;
+	width: 55%;
 }
 
 .title img {
-	width: 50rem;
+	width: 100%;
 	z-index: 1;
 }
 
 .title h1	{
 	color: #7e587c;
 	z-index: 2;
-	position: absolute;
-	top: 6.875rem;
-	margin-left: 20.6rem;
+	position: relative;
+	bottom: 63rem;
 	font-size: 2.2rem;
 }
 
 .title h2 {
-	margin-top: 0.3125rem;
+	margin: -40px 0 10px 0;
 	font-size: 1.25rem;
 }
 
@@ -135,7 +140,7 @@ figure .orizzontale {
 }
 
 figure .whole {
-	width: 87.5rem;
+	width: 97%;
 }
 
 figure .verticale {
