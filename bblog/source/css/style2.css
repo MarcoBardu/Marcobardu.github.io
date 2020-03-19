@@ -148,7 +148,6 @@ figure .wide {
 
 figure {
 	margin: 0.625rem;
-	border: 1px solid orange;
 }
 
 figcaption {
@@ -160,7 +159,6 @@ figcaption {
 .album .description {
 	width: 42rem;
 	margin: 0.625rem;
-	border: 1px solid orange;
 }
 
 .description h3 {
@@ -174,13 +172,6 @@ figcaption {
 	padding: 0 2.5rem;
 }
 
-.traslato {
-	position: relative;
-	bottom: 10.625rem;
-	left: 1.875rem;
-	overflow: hidden;
-}
-
 #Modern .orizzontale {
 	width: 46.875rem;
 	height: auto;
@@ -189,7 +180,7 @@ figcaption {
 #short {
 	height: 22.188rem;
 	margin-left: 3.75rem;
-	margin-top: 1.875rem;
+	margin-top: 6rem;
 }
 
 .soundtrack {
