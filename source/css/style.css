@@ -55,6 +55,22 @@ nav ul li {
 	background-color: LightGoldenRodYellow;
 }
 
+.playlist {
+	text-align: center;
+}
+
+.playlist a{
+	text-decoration: none;
+	font-size: 15px;
+	border: 4px solid peru;
+	color: peru;
+	padding: 6px;
+	border-style: ridge;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: optima, sans-sarif;
+}
+
 header nav ul li {
 	transition: background-color, color;
 }
@@ -471,6 +487,31 @@ nav ul li #a5:hover {
 	display: inline-block;
 }
 /* /city */
+
+#Playlist {
+	margin: 20px auto;
+	background-color: #37456E;
+	width: 30%;
+	border-radius: 10px;
+}
+
+#Playlist h3 {
+	color: #93C4C7;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+}
+
+#Playlist ul {
+	margin: 3px;
+	padding: 4px;
+}
+
+#Playlist li {
+	color: white;
+	padding: 3px;
+	font-family: optima, sans-sarif;
+}
 
 
 /* text decoration */

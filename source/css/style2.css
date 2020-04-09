@@ -100,6 +100,23 @@ a {
 	text-decoration: none;
 }
 
+.playlist {
+	text-align: center;
+	margin: 15px;
+}
+
+.playlist a{
+	text-decoration: none;
+	font-size: 15px;
+	border: 4px solid black;
+	color: black;
+	padding: 6px;
+	border-style: ridge;
+	border-radius: 3px;
+	font-weight: bold;
+	font-family: optima, sans-sarif;
+}
+
 /* end header */
 
 /*main*/
@@ -190,24 +207,24 @@ figcaption {
 	margin-top: 6rem;
 }
 
-.soundtrack {
+#Playlist {
 	width: 31.25rem;
 	height: 29rem;
 	margin: 0.625rem 0 0 3.125rem;
 	background-color: #37456E;
 }
 
-.soundtrack h3 {
+#Playlist h3 {
 	color: #93C4C7;
 	font-size: 1.5625rem;
 	margin: 0.625rem 0 0 0;
 }
 
-.soundtrack ul {
+#Playlist ul {
 	margin: 1.25rem 0 0 3.75rem;
 }
 
-.soundtrack li {
+#Playlist li {
 	color: white;
 	font-size: 1.25rem;
 	line-height: 2rem;
