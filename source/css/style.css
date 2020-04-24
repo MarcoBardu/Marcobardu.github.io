@@ -93,6 +93,10 @@ header nav ul li a {
 	transition: color;
 }
 
+a {
+	text-decoration: none;
+}
+
 
 /* /header */
 
@@ -508,9 +512,12 @@ nav ul li #a5:hover {
 }
 
 #Playlist li {
-	color: white;
 	padding: 3px;
 	font-family: optima, sans-sarif;
+}
+
+#Playlist li a {
+	color: white;
 }
 
 

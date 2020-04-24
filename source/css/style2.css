@@ -224,11 +224,15 @@ figcaption {
 }
 
 #Playlist li {
-	color: white;
 	font-size: 1.25rem;
 	line-height: 2rem;
 	font-family: 'Baloo Chettan 2', cursive;
 }
+
+#Playlist li a {
+	color: white;
+}
+
 
 #Friends .description {
 	background-color: #93C4C7;

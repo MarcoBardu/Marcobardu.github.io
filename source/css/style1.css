@@ -181,6 +181,10 @@ i {
 	margin: 20px 0 20px 20px;
 }
 
+a {
+	text-decoration: none;
+}
+
 #sponsor {
 	margin: 20px 50px 20px 0;
 }
@@ -498,11 +502,13 @@ nav ul li #a6:hover {
 }
 
 #Playlist li {
-	color: white;
 	padding: 3px;
 	font-family: optima, sans-sarif;
 }
 
+#Playlist li a {
+	color: white;
+}
 
 /* text decoration */
 
